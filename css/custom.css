@@ -1,0 +1,101 @@
+		body{
+			background: #000;
+			font-family: robotoregular;
+		}
+		.banner{
+			margin:100px 0px 0px 0px;
+		}
+		.banner h1{
+			color: #ffffff;
+			font-size: 6em;
+			font-family: robotoblack;
+		}
+		.banner h2{
+			color: rgb(173, 174, 174);
+			font-size: 6em;
+			font-family: robotoblack;
+		}
+		.banner p{
+			color: rgb(173, 174, 174);
+			margin-top: 50px;
+			margin-right:500px;
+		}
+		.projects{
+			margin: 240px 200px 200px 200px; 
+		}
+		.projects h1{
+			color:rgb(173, 174, 174);
+			font-family: robotoblack;
+			font-size: 30px;
+		}
+		.box-wrap{
+			background:rgb(18,18,18);
+			box-sizing: border-box;
+			border: 0 solid #e2e8f0;
+			border-radius: 3px;	
+			padding: 30px;
+			margin-top: 40px;
+		}
+		.box-wrap a{
+			color: #00adb5;
+		}
+		.box-wrap p{
+			font-size: 16px;
+			font-family: ralewayextralight;
+			color: rgb(173, 174, 174);
+
+		}
+		.box-wrap h1{
+			font-family: robotoblack;
+			
+		}
+		.custom-btn{
+			font-family: sf_monoregular;
+		}
+		.tags{
+			font-family: sf_monoregular !important;
+			color: rgb(173, 174, 174);
+			margin-top: 40px;
+		}
+		.socials h1{
+			color: #00adb5;
+			font-family: robotoblack;
+		}
+		.socials a{
+			color: #FF004D;
+			margin-right: 30px;
+			font-size: 40px;
+			font-family: robotoblack;
+			justify-content: center;
+			text-decoration: none;
+		}
+		.socials a:hover{
+			color: rgb(173, 174, 174);
+			transition: 1s;
+		}
+		.social-list{
+			margin:10px 0px 80px 30px;
+		}
+		footer p{
+			color: rgb(173, 174, 174);
+			font-size: 15px;
+			font-family: sf_monoregular;
+			text-align: center;
+		}
+
+		/*For mobile screen*/
+		@media only screen and (max-width: 600px) {
+		  .projects {
+		    margin:50px 0px 0px 0px !important;
+		  }
+		  .banner p{
+			color: rgb(173, 174, 174);
+			margin-top: 50px;
+			margin-right:10px;
+			margin-bottom: 20px;
+		  }
+		  .socials h1{
+		  	margin-top: 30px;
+		  	text-align: center;
+		  }
+		}
